@@ -2,7 +2,7 @@ body {margin: 0; font-family: Arial;}
 .utility {background:black; padding: 10px; color:white; font-size: 18px;margin:0; height:28px;font-family:arial;}
 
 .uti_navi {
-	background: cover; background-image:url(img1.jpg); height: 355px;
+	background: cover; background-image:url("img1.jpg"); height: 355px;
 }
 
 @media all and (max-width:700px){
@@ -21,7 +21,7 @@ body {margin: 0; font-family: Arial;}
 	
 	
 	
-footer{background-image:url("../../Assets/images/img1.jpg");}
+footer{background-image:url("images/img1.jpg");}
 	
 .footer_section { background-size:cover; height:200px; align-items:center;
 	color:white;background-color:rgba(21, 19, 7,0.7);}
