@@ -1,0 +1,68 @@
+body {margin: 0; font-family: Arial;}
+.utility {background:black; padding: 10px; color:white; font-size: 18px;margin:0; height:28px;font-family:arial;}
+
+.uti_navi {
+	background: cover; background-image:url(../../Assets/images/img1.jpg); height: 355px;
+}
+
+@media all and (max-width:700px){
+	.utility {font-size: 10.5px;}
+}	
+	.t {margin-left:12px;}
+
+.navibar {text-align: center; background-color: rgba(21, 19, 7,0.7); height:10%; margin-bottom: 20px;}
+.navibar a{
+  text-decoration: none; color:rgb(255, 255, 18); padding:5px; text-align: center; 
+  font-size: 18px; display: inline-block; width: 90px;
+}
+.title{text-align: center; height: 300px; padding-top:65px; background-color: rgba(21, 19, 7,0.7); }
+.title1{  color:rgb(255, 255, 84); font-size: 30px;}
+.title2{ color: rgb(77, 206, 238); font-size: 20px;}
+	
+	
+	
+footer{background-image:url("../../Assets/images/img1.jpg");}
+	
+.footer_section { background-size:cover; height:200px; align-items:center;
+	color:white;background-color:rgba(21, 19, 7,0.7);}
+	
+.footer_column {height:150px;border:solid 2px;border-color:yellow;display:inline-block;width: 40%; 
+	margin:20px;padding-top:0}
+.call_to_action {text-decoration: none; display:inline-block;color:rgb(49, 122, 116); font-weight:bolder}
+.qlinks a{padding-left:10px;text-decoration:none; color:rgb(135, 197, 218)}
+.qlinks {height:150px;border:solid 2px;border-color:yellow;display:inline-block; width: 20%; margin:20px;}
+.clinks {margin-top:0;height:150px;border:solid 2px;border-color:yellow;display:inline-block;width: 20%;
+	margin:20px;color:rgb(135, 197, 218)}
+.cbody{padding-left:10px;}
+.footer_row{display:block;padding-top:0;margin-top:0;background-color:black; color:white;font-size:13px;}
+.tittle {padding-left:0;color:yellow; margin-bottom:10px;}
+.about_text{padding-left:10px;color:white; text-align: justify;}
+
+
+@media all and (max-width:1000px){
+	
+	.footer_column{width:40%;margin:20px;}
+	
+	.qlinks{width:40%;margin:20px;}	
+	.clinks{width:40%;margin:20px;}
+	footer{height:500px;}	
+	.footer_row{width:100%;display:block;}	
+	}
+	
+	
+	
+	@media all and (max-width:700px){
+		
+	.footer_column{width:80%;margin:20px;height:200px;
+	display:inline-block;float:none;}
+	
+	.qlinks{width:80%;margin:20px;height:180px;
+	display:inline-block;float:none;}	
+	.clinks{width:80%;margin:20px;height:180px;
+		display:inline-block;float:none;}
+	footer{height:700px;text-align:center;}	
+	.footer_row{width:100%;display:block;}	
+	}
+	
+	
+	
